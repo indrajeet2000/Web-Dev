@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1 style="color:blue;text-align:center;">This is a heading</h1>
+<p style="color:red;">This is a paragraph.</p>
+
+</body>
+</html>
+
+
+
+The inline CSS is also a method to insert style sheets in HTML document.
+This method mitigates some advantages of style sheets so it is advised to use this method sparingly.
+If you want to use inline CSS, you should use the style attribute to the relevant tag.

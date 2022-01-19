@@ -58,3 +58,120 @@ Tag	      Description
 
 Table Headers
 Sometimes you want your cells to be headers, in those cases use the <th> tag instead of the <td> tag
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+<p>Simple table with header</p>
+<table>
+  <tr>
+    <th>First name</th>
+    <th>Last name</th>
+  </tr>
+  <tr>
+    <td>John</td>
+    <td>Doe</td>
+  </tr>
+  <tr>
+    <td>Jane</td>
+    <td>Doe</td>
+  </tr>
+</table>
+
+output:
+
+Simple table with header
+
+First name	Last name
+John	         Doe
+Jane	         Doe
+
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+<p>Table with thead, tfoot, and tbody</p>
+<table>
+  <thead>
+    <tr>
+      <th>Header content 1</th>
+      <th>Header content 2</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Body content 1</td>
+      <td>Body content 2</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td>Footer content 1</td>
+      <td>Footer content 2</td>
+    </tr>
+  </tfoot>
+</table>
+
+output:
+
+Table with thead, tfoot, and tbody
+
+Header content 1	      Header content 2
+Body content 1	         Body content 2
+Footer content 1	       Footer content 2
+
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+<p>Table with colgroup</p>
+<table>
+  <colgroup span="4"></colgroup>
+  <tr>
+    <th>Countries</th>
+    <th>Capitals</th>
+    <th>Population</th>
+    <th>Language</th>
+  </tr>
+  <tr>
+    <td>USA</td>
+    <td>Washington, D.C.</td>
+    <td>309 million</td>
+    <td>English</td>
+  </tr>
+  <tr>
+    <td>Sweden</td>
+    <td>Stockholm</td>
+    <td>9 million</td>
+    <td>Swedish</td>
+  </tr>
+</table>
+
+
+output:
+
+Table with colgroup
+
+Countries   	Capitals	          Population	         Language
+USA	        Washington, D.C.	   309 million        	 English
+Sweden	     Stockholm      	    9 million	          Swedish
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+<p>Simple table with caption</p>
+<table>
+  <caption>Awesome caption</caption>
+  <tr>
+    <td>Awesome data</td>
+  </tr>
+</table>
+
+output:
+
+Simple table with caption
+
+Awesome caption
+Awesome data

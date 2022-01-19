@@ -1,0 +1,35 @@
+type ! and hit enter to get html boilerplate -or- type html:5 and hit enter
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+head is the most above part of website* (showed in links and taskbar)
+meta name-"" : tells the data in it
+title : tells the page title displayed on task bar
+
+
+now lets see body part
+
+<body>
+
+inside this we use <h1>-<h2> heads and different text 
+<p> - paragraph
+<em>- to make the text italic
+<i> - same as above but not used *
+
+<strong> - to make bold , as we dont prefer <b>
+
+<br> - give new line
+<hr> - horizontal rule (horizontal line)
+
+

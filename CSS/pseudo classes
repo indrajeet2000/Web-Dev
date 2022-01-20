@@ -1,0 +1,14 @@
+pseudo classes are used in addition of class as to get some more features.
+
+ex- hover
+:hover
+
+
+.image:hover{ }
+
+
+there are many pesudo classes and references
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes

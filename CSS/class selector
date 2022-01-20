@@ -1,0 +1,25 @@
+Examples-
+
+CSS:
+____________________________________________
+.red {
+  color: #f33;
+}
+
+.yellow-bg {
+  background: #ffa;
+}
+
+.fancy {
+  font-weight: bold;
+  text-shadow: 4px 4px 3px #77f;
+}
+_______________________________________________
+HTML:
+
+<p class="red">This paragraph has red text.</p>
+<p class="red yellow-bg">This paragraph has red text and a yellow background.</p>
+<p class="red fancy">This paragraph has red text and "fancy" styling.</p>
+<p>This is just a regular paragraph.</p>
+
+_______________________________________________

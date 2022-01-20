@@ -1,0 +1,59 @@
+The <div> HTML element is the generic container for flow content. 
+It has no effect on the content or layout until styled in some way using CSS 
+(e.g. styling is directly applied to it, or some kind of layout model like Flexbox is applied to its parent element).
+
+example:
+<div class="warning">
+    <img src="/media/examples/leopard.jpg"
+         alt="An intimidating leopard.">
+    <p>Beware of the leopard</p>
+</div>
+
+
+*this code is of html, in css we could make it's class .warning and style it
+_____________________________________________________________________________
+
+inside this div we could use margins 
+
+margin-bottom
+margin-left
+margin-right
+margin-top
+------------------------------------------------------------------------------
+Syntax:
+
+/* Apply to all four sides */
+margin: 1em;
+margin: -3px;
+
+
+/* vertical | horizontal */
+margin: 5% auto;
+
+
+/* top | horizontal | bottom */
+margin: 1em auto 2em;
+
+
+/* top | right | bottom | left */
+margin: 2px 1em 0 auto;
+
+
+/* Global values */
+margin: inherit;
+margin: initial;
+margin: revert;
+margin: unset;
+
+
+----------------------------------------------------------------------------------
+
+
+
+1.When one value is specified, it applies the same margin to all four sides.
+
+2.When two values are specified, the first margin applies to the top and bottom, the second to the left and right.
+
+3.When three values are specified, the first margin applies to the top, the second to the right and left, the third to the bottom.
+
+4.When four values are specified, the margins apply to the top, right, bottom, and left in that order (clockwise).

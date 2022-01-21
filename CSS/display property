@@ -1,0 +1,8 @@
+block
+inline
+inline-block
+none
+
+all this is used as per requirements, for ex. <p> only allows full margin that is it cover the whole page, but we could make it simple using inline or using <span>
+
+we can also use none or visibilty:hidden in css style to make text disappear

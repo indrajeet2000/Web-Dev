@@ -1,0 +1,9 @@
+documents.querySelector("h1").innerHTML;  give all the content of h1 , even <em> tags if it's there hence;
+
+
+documents.querySelector("h1").textContent; 
+
+
+
+
+if we wanna change text :  documents.querySelector("h1").innerHTML="changed text";

@@ -8,3 +8,7 @@ document.getElementsByTagName(" ").style.color="purple
 document.getElementsByClassName(" ")....
 
 document.getElementsById(" ").......
+
+
+
+link for DOM objects for HTML :  https://www.w3schools.com/jsref/dom_obj_style.asp

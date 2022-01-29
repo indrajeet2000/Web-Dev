@@ -1,0 +1,8 @@
+in this we could check all the attributes , eg- class, id, headers, etc.
+documents.querySeector("a").attributes;
+
+ 
+get attribute :  documents.querySeector("a").getAttributes("href");
+
+
+set attributes :  documents.querySeector("a").setAttributes("href, bing.com");

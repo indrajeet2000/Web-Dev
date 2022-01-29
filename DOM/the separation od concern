@@ -1,0 +1,10 @@
+document.querySelector("h1").classList.add("huge");
+
+
+document.querySelector("h1").classList.remove("huge");
+
+
+document.querySelector("h1").classList.toggle("huge");
+
+
+these are bascially used to add a new class name to an element using JS outside the code , and hence if we don't like the design , we could just remove it directly

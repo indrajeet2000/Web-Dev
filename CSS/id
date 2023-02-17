@@ -1,3 +1,5 @@
 it's same as class and used in html as same as class but in css, we use #id_name{}
 
 #id_name{}
+
+id can only be used at one placed, but class can be used multiple times
